@@ -47,7 +47,6 @@ export default {
     },
 
     updatePagination(page) {
-      console.log(page)
       this.currentPage = page
       this.executeRequest()
     },
